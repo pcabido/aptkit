@@ -1,0 +1,18 @@
+#/bin/bash
+
+FIND="deb http://kits.alinex.org"
+SOURCES="/etc/apt/sources.list"
+
+grep -q "${FIND}" $SOURCES
+if [ $? -eq 0 ]; then
+   the repository already exists but it might be commented so
+   the first char '#' will be removed if there
+   NUMBER=`grep -n "${FIND}" $SOURCES | cut -d: -f1`
+   `sed -e "${NUMBER}s/^#//" $SOURCES > /tmp/sedsources.list`
+   `mv /tmp/sedsources.list $SOURCES`
+else
+   echo "" >> $SOURCES
+   echo "#kits alinex" >> $SOURCES
+   echo "deb http://kits.alinex.org kits main" >> $SOURCES
+   `wget -q  http://kits.alinex.org/alinex.key -O- | apt-key add -`
+fi

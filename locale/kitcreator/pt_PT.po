@@ -1,0 +1,478 @@
+# Portuguese translations for PACKAGE package
+# Traduções portuguesas para o pacote PACKAGE.
+# Copyright (C) 2008 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Paulo Cabido <paulo.cabido@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-10-18 16:07+0100\n"
+"PO-Revision-Date: 2008-10-19 12:58+0100\n"
+"Last-Translator: Paulo Cabido <paulo.cabido@gmail.com>\n"
+"Language-Team: Portuguese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/kitCreator.py:26
+msgid "Kits Creator"
+msgstr "Criador de Kits"
+
+#: src/kitCreator.py:28
+msgid "GTK frontend for Kits Creator."
+msgstr "Frontend GTK para o Criador de Kits."
+
+#: src/kitCreator.py:31
+msgid "GNU GPL v3"
+msgstr "GNU GPL v3"
+
+#: src/kitCreator.py:108
+msgid "<big><b>Generating the package list.</b></big>"
+msgstr "<big><b>A gerar a lista de pacotes.</b></big>"
+
+#: src/kitCreator.py:142
+msgid "Package"
+msgstr "Pacote"
+
+#: src/kitCreator.py:148
+msgid "Version"
+msgstr "Versão"
+
+#: src/kitCreator.py:154 data/kitCreator.glade.h:28
+msgid "Description"
+msgstr "Descrição"
+
+#: src/kitCreator.py:290
+msgid "<big><b>Checking the system for installed packages.</b></big>"
+msgstr "<big><b>A verificar os pacotes instalados em sistema.</b></big>"
+
+#: src/kitCreator.py:324
+msgid "System/backup Kit"
+msgstr "Kit de sistema/backup"
+
+#: src/kitCreator.py:330
+#, python-format
+msgid ""
+"System state (backup) %s.\n"
+"This Kit restores or duplicates the system state."
+msgstr "Estado do sistema (backup) %s.\nEste Kit restaura ou duplica o estado do sistema."
+
+#: src/kitCreator.py:343
+msgid "Open Kit"
+msgstr "Abrir Kit"
+
+#: src/kitCreator.py:381 src/kitCreator.py:467
+msgid "<big><b>Checking Kit packages.</b></big>"
+msgstr "<big><b>A verificar os pacotes do Kit.</b></big>"
+
+#: src/kitCreator.py:557
+msgid "Save Kit"
+msgstr "Guardar Kit"
+
+#: src/kitCreator.py:600 src/kitCreator.py:778
+msgid "<big><b>Checking selected packages.</b></big>"
+msgstr "<big><b>A verificar os pacotes seleccionados.</b></big>"
+
+#: src/kitCreator.py:653
+msgid "File name"
+msgstr "Nome do Ficheiro"
+
+#: src/kitCreator.py:654
+msgid "The file name must be defined."
+msgstr "O nome do ficheiro tem que estar definido."
+
+#: src/kitCreator.py:672
+msgid "Location"
+msgstr "Localização"
+
+#: src/kitCreator.py:673
+msgid "The location where to save the Kit must be defined."
+msgstr "A localização onde guardar o Kit tem que estar definida."
+
+#: src/kitCreator.py:681 src/kitCreator.py:687
+msgid "Kit Name"
+msgstr "Nome do Kit"
+
+#: src/kitCreator.py:682
+msgid "The Kit name must be defined."
+msgstr "O nome do Kit tem que estar definido."
+
+#: src/kitCreator.py:688
+msgid "The Kit name has illegal characters."
+msgstr "O nome do Kit tem caracteres invalidos."
+
+#: src/kitCreator.py:697
+msgid "Kit Priority"
+msgstr "Prioridade do Kit"
+
+#: src/kitCreator.py:698
+msgid "The Kit priority must be defined."
+msgstr "A prioridade do Kit tem que estar definida."
+
+#: src/kitCreator.py:709
+msgid "Kit Section"
+msgstr "Secção do Kit"
+
+#: src/kitCreator.py:710
+msgid "The Kit section must be defined."
+msgstr "A secção do Kit tem que estar definida."
+
+#: src/kitCreator.py:717 src/kitCreator.py:723
+msgid "Kit Version"
+msgstr "Versão do Kit"
+
+#: src/kitCreator.py:718
+msgid "The Kit version must be defined."
+msgstr "A versão do Kit tem que estar definida."
+
+#: src/kitCreator.py:724
+msgid "The Kit version has illegal characters."
+msgstr "A versão do Kit tem caracteres invalidos."
+
+#: src/kitCreator.py:731
+msgid "Kit Architecture"
+msgstr "Arquitectura do Kit"
+
+#: src/kitCreator.py:732
+msgid "The Kit architecture must be defined."
+msgstr "A arquitectura do Kit tem que estar definida."
+
+#: src/kitCreator.py:739 src/kitCreator.py:745
+msgid "Kit Maintainer"
+msgstr "Responsável pelo Kit"
+
+#: src/kitCreator.py:740
+msgid "The Kit maintainer must be defined."
+msgstr "O responsável pelo Kit tem que estar definido."
+
+#: src/kitCreator.py:746
+msgid "The Kit maintainer has illegal characters."
+msgstr "O responesável pelo Kit tem caracteres invalidos."
+
+#: src/kitCreator.py:756 src/kitCreator.py:762
+msgid "Kit Synopsis"
+msgstr "Sinopse do Kit"
+
+#: src/kitCreator.py:757
+msgid "The Kit synopsis must be defined."
+msgstr "A sinopse do Kit tem que estar definido."
+
+#: src/kitCreator.py:763
+msgid "The Kit synopsis has illegal characters."
+msgstr "A sinopse do Kit tem caracteres invalidos."
+
+#: src/kitCreator.py:769
+msgid "Kit Description"
+msgstr "Descrição do Kit"
+
+#: src/kitCreator.py:770
+msgid "The Kit description must be defined."
+msgstr "A descrição do Kit tem que estar definida."
+
+#: src/kitCreator.py:804
+msgid "Kit Packages"
+msgstr "Pacotes do Kit"
+
+#: src/kitCreator.py:805
+msgid "At least one package has to be selected."
+msgstr "Pelo menos um pacote tem que ser seleccionado."
+
+#: src/kitCreator.py:829 src/kitCreator.py:836
+msgid "Error"
+msgstr "Erro"
+
+#: src/kitCreator.py:830 src/kitCreator.py:837
+msgid "An error occurred during the Kit creation."
+msgstr "Ocorreu um erro durante a criação do Kit."
+
+#: src/kitCreator.py:840
+msgid "Kit created successfully!"
+msgstr "O Kit foi criado com sucesso!"
+
+#: src/kitCreator.py:841
+#, python-format
+msgid "Kit <b>%s</b> was created with success and saved at <b>%s/%s</b>."
+msgstr "O Kit <b>%s</b> foi criado com sucesso e guardado em <b>%s/%s</b>."
+
+#: data/kitCreator.glade.h:1
+msgid ""
+"\n"
+"Required\n"
+"Important\n"
+"Standard\n"
+"Optional\n"
+"Extra"
+msgstr ""
+
+#: data/kitCreator.glade.h:7
+msgid ""
+"\n"
+"all\n"
+"alpha\n"
+"amd64\n"
+"arm\n"
+"hppa\n"
+"i386\n"
+"ia64\n"
+"m68k\n"
+"mips\n"
+"mipsel\n"
+"powerpc\n"
+"s390\n"
+"sparc"
+msgstr ""
+
+#: data/kitCreator.glade.h:21
+msgid "<b>Build options</b>"
+msgstr "<b>Gerar Kit</b>"
+
+#: data/kitCreator.glade.h:22
+msgid "<b>General settings</b>"
+msgstr "<b>Definições Gerais</b>"
+
+#: data/kitCreator.glade.h:23
+msgid "<b>Kit Description</b>"
+msgstr "<b>Descrição do Kit</b>"
+
+#: data/kitCreator.glade.h:24
+msgid "<b>Packages List</b>"
+msgstr "<b>Lista de pacotes</b>"
+
+#: data/kitCreator.glade.h:25
+msgid "<b>Post-Install</b>"
+msgstr ""
+
+#: data/kitCreator.glade.h:26
+msgid "Architecture:"
+msgstr "Arquitectura"
+
+#: data/kitCreator.glade.h:27
+msgid "Build options"
+msgstr "Concluir"
+
+#: data/kitCreator.glade.h:29
+msgid "Description:"
+msgstr "Descrição:"
+
+#: data/kitCreator.glade.h:30
+msgid "File name: "
+msgstr "Nome do ficheiro:"
+
+#: data/kitCreator.glade.h:31
+msgid "General"
+msgstr "Definições"
+
+#: data/kitCreator.glade.h:32
+msgid "Generate Kit"
+msgstr "Gerar Kit"
+
+#: data/kitCreator.glade.h:33
+msgid "Kit Creator"
+msgstr "Criador de Kits"
+
+#: data/kitCreator.glade.h:34
+msgid "Kit Name:"
+msgstr "Nome do Kit:"
+
+#: data/kitCreator.glade.h:35
+msgid "Location:"
+msgstr "Localização:"
+
+#: data/kitCreator.glade.h:36
+msgid "Maintainer: "
+msgstr "Responsável:"
+
+#: data/kitCreator.glade.h:37
+msgid "Packages"
+msgstr "Pacotes"
+
+#: data/kitCreator.glade.h:38
+msgid "Post-Install"
+msgstr ""
+
+#: data/kitCreator.glade.h:39
+msgid "Priority:"
+msgstr "Prioridade:"
+
+#: data/kitCreator.glade.h:40
+msgid "Search:"
+msgstr "Procurar:"
+
+#: data/kitCreator.glade.h:41
+msgid "Section:"
+msgstr "Secção:"
+
+#: data/kitCreator.glade.h:42
+msgid "Select a folder"
+msgstr "Seleccionar uma pasta"
+
+#: data/kitCreator.glade.h:43
+msgid "Synopsis:"
+msgstr "Sinopse do Kit:"
+
+#: data/kitCreator.glade.h:44
+msgid "System/_backup Kit"
+msgstr "Kit de sistema/_backup"
+
+#: data/kitCreator.glade.h:45
+msgid "Version: "
+msgstr "Versão:"
+
+#: data/kitCreator.glade.h:46
+msgid "_File"
+msgstr "_Ficheiro"
+
+#: data/kitCreator.glade.h:47
+msgid "_Help"
+msgstr "_Ajuda"
+
+#: data/kitCreator.glade.h:48
+msgid "_Options"
+msgstr "_Opções"
+
+#: data/kitCreator.glade.h:50
+msgid "translator-credits"
+msgstr "Paulo Cabido <paulo.cabido@gmail.com>"
+
+#: data/sections.py:3
+msgid "Administration Utilities"
+msgstr "Administração de Sistemas"
+
+#: data/sections.py:4
+msgid "Base Utilities"
+msgstr "Sistema Básico"
+
+#: data/sections.py:5
+msgid "Communication Programs"
+msgstr "Comunicação"
+
+#: data/sections.py:6
+msgid "debian-installer udeb packages"
+msgstr ""
+
+#: data/sections.py:7
+msgid "Development"
+msgstr "Desenvolvimento"
+
+#: data/sections.py:8
+msgid "Documentation"
+msgstr "Documentação"
+
+#: data/sections.py:9
+msgid "Editors"
+msgstr "Editores"
+
+#: data/sections.py:10
+msgid "Electronics"
+msgstr "Eletrônica"
+
+#: data/sections.py:11
+msgid "Embedded software"
+msgstr "Dispositivos Embutidos"
+
+#: data/sections.py:12
+msgid "Games"
+msgstr "Jogos e Entretenimento"
+
+#: data/sections.py:13
+msgid "Gnome"
+msgstr ""
+
+#: data/sections.py:14
+msgid "Graphics"
+msgstr "Gráficos"
+
+#: data/sections.py:15
+msgid "Ham Radio"
+msgstr "Rádio Amador"
+
+#: data/sections.py:16
+msgid "Interpreted Computer Languages"
+msgstr "Linguagens de Computador Interpretadas"
+
+#: data/sections.py:17
+msgid "KDE"
+msgstr ""
+
+#: data/sections.py:18
+msgid "Library development"
+msgstr "Bibliotecas - Desenvolvimento"
+
+#: data/sections.py:19
+msgid "Libraries"
+msgstr "Bibliotecas"
+
+#: data/sections.py:20
+msgid "Mail"
+msgstr "E-mail"
+
+#: data/sections.py:21
+msgid "Mathematics"
+msgstr "Matemática"
+
+#: data/sections.py:22
+msgid "Miscellaneous"
+msgstr "Variedades"
+
+#: data/sections.py:23
+msgid "Network"
+msgstr "Rede"
+
+#: data/sections.py:24
+msgid "Newsgroups"
+msgstr "Grupos de Notícias"
+
+#: data/sections.py:25
+msgid "Old Libraries"
+msgstr "Bibliotecas - Antigos"
+
+#: data/sections.py:26
+msgid "Other OS's and file systems"
+msgstr "Plataforma Cruzada (Cross)"
+
+#: data/sections.py:27
+msgid "Perl"
+msgstr ""
+
+#: data/sections.py:28
+msgid "Python"
+msgstr ""
+
+#: data/sections.py:29
+msgid "Science"
+msgstr "Ciência"
+
+#: data/sections.py:30
+msgid "Shells"
+msgstr ""
+
+#: data/sections.py:31
+msgid "Sound"
+msgstr "Multimídia"
+
+#: data/sections.py:32
+msgid "TeX"
+msgstr ""
+
+#: data/sections.py:33
+msgid "Text Processing"
+msgstr "Processamento de Textos"
+
+#: data/sections.py:34
+msgid "Utilities"
+msgstr "Utilitários"
+
+#: data/sections.py:35
+msgid "Virtual packages"
+msgstr ""
+
+#: data/sections.py:36
+msgid "Web Software"
+msgstr ""
+
+#: data/sections.py:37
+msgid "X Window System software"
+msgstr ""

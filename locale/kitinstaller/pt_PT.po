@@ -1,0 +1,319 @@
+# Portuguese translations for PACKAGE package
+# Traduções portuguesas para o pacote PACKAGE.
+# Copyright (C) 2008 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Paulo Cabido <paulo.cabido@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-10-23 16:47+0100\n"
+"PO-Revision-Date: 2008-10-23 16:47+0100\n"
+"Last-Translator: Paulo Cabido <paulo.cabido@gmail.com>\n"
+"Language-Team: Portuguese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/kitInstaller.py:25
+msgid "Kits Installer"
+msgstr "Instalador de Kits"
+
+#: src/kitInstaller.py:27
+msgid "GTK frontend for Kits Installer."
+msgstr "Frontend GTK para o Instalador de Kits."
+
+#: src/kitInstaller.py:30
+msgid "GNU GPL v3"
+msgstr "GNU GPL v3"
+
+#: src/kitInstaller.py:161 src/kitInstaller.py:165 src/kitInstaller.py:332
+msgid "All kits"
+msgstr "Todos os kits"
+
+#: src/kitInstaller.py:242
+msgid "Kit"
+msgstr ""
+
+#: src/kitInstaller.py:248
+msgid "Version"
+msgstr "Versão"
+
+#: src/kitInstaller.py:254
+msgid "Description"
+msgstr "Descrição"
+
+#: src/kitInstaller.py:290 src/kitInstaller.py:435 src/kitInstaller.py:438
+#: src/kitInstaller.py:441 src/kitInstaller.py:499 src/kitInstaller.py:516
+msgid "Error"
+msgstr "Erro"
+
+#: src/kitInstaller.py:291
+msgid "The package list download failed."
+msgstr "O download da lista de pacotes falhou."
+
+#: src/kitInstaller.py:436
+#, python-format
+msgid ""
+"Error while installing the following kits <b>%s</b> and while removing <b>%"
+"s</b>."
+msgstr "Erro ao instalar os kits <b>%s</b> e a remover <b>%s</b>."
+
+#: src/kitInstaller.py:439
+#, python-format
+msgid "Error while installing the following kits <b>%s</b>."
+msgstr "Erro ao instalar os kits <b>%s</b>."
+
+#: src/kitInstaller.py:442
+#, python-format
+msgid "Error while removing the following kits <b>%s</b>."
+msgstr "Erro ao remover os kits <b>%s</b>."
+
+#: src/kitInstaller.py:444
+msgid "Success"
+msgstr "Sucesso"
+
+#: src/kitInstaller.py:445
+msgid "All kits where installed/removed with success."
+msgstr "Todos os kits foram instalados/removidos com sucesso."
+
+#: src/kitInstaller.py:453
+msgid "Open Kit"
+msgstr "Abrir Kit"
+
+#: src/kitInstaller.py:487 src/kitInstaller.py:495 src/kitInstaller.py:503
+msgid "Update Kit"
+msgstr "Actualizar Kit"
+
+#: src/kitInstaller.py:488
+#, python-format
+msgid ""
+"<b>%s</b> is already installed, but this version is newer.\n"
+"Do you wish to update?"
+msgstr ""
+"<b>%s</b> já se encontra instalado, mas esta versão é mais recente.\n"
+"Deseja actualizar?"
+
+#: src/kitInstaller.py:496
+#, python-format
+msgid "<b>%s</b> was successfully updated."
+msgstr "<b>%s</b> foi actualizado com sucesso."
+
+#: src/kitInstaller.py:500
+#, python-format
+msgid "Error while updating <b>%s</b>."
+msgstr "Erro ao actualizar <b>%s</b>."
+
+#: src/kitInstaller.py:504
+#, python-format
+msgid "The <b>%s</b> Kit is already updated."
+msgstr "O Kit <b>%s</b> já se encontra actualizado."
+
+#: src/kitInstaller.py:507
+msgid "Install Kit"
+msgstr "Instalar Kit"
+
+#: src/kitInstaller.py:508
+#, python-format
+msgid "Do you wish to install <b>%s</b>?"
+msgstr "Deseja instalar o Kit <b>%s</b>?"
+
+#: src/kitInstaller.py:512
+msgid "Kit installed"
+msgstr "Kit instalado"
+
+#: src/kitInstaller.py:513
+#, python-format
+msgid "Kit <b>%s</b> was installed with success."
+msgstr "O Kit <b>%s</b> foi instalado com sucesso."
+
+#: src/kitInstaller.py:517
+#, python-format
+msgid "Error while installing <b>%s</b>."
+msgstr "Erro ao instalar o Kit <b>%s</b>."
+
+#: src/kitInstaller.py:581
+msgid "Section"
+msgstr "Secção"
+
+#: data/kitInstaller.glade.h:1
+msgid "<b>Sections</b>"
+msgstr "<b>Secções</b>"
+
+#: data/kitInstaller.glade.h:2
+msgid "<big><b>Downloading and generating the Kit list.</b></big>\n"
+msgstr "<big><b>A fazer o download e a gerar a list dos Kits</b></big>\n"
+
+#: data/kitInstaller.glade.h:4
+msgid "Kit Installer"
+msgstr "Instalador de Kits"
+
+#: data/kitInstaller.glade.h:5
+msgid "Options"
+msgstr "Opções"
+
+#: data/kitInstaller.glade.h:6
+msgid "Search: "
+msgstr "Procurar: "
+
+#: data/kitInstaller.glade.h:7
+msgid "Update _Repositories"
+msgstr "Actualizar os _Repositórios"
+
+#: data/kitInstaller.glade.h:8
+msgid "_About"
+msgstr "_Sobre"
+
+#: data/kitInstaller.glade.h:9
+msgid "_File"
+msgstr "_Ficheiro"
+
+#: data/kitInstaller.glade.h:10
+msgid "_Help"
+msgstr "_Ajuda"
+
+#: data/kitInstaller.glade.h:12
+msgid "translator-credits"
+msgstr "Paulo Cabido <paulo.cabido@gmail.com>"
+
+#: data/sections.py:3
+msgid "Administration Utilities"
+msgstr "Administração de Sistemas"
+
+#: data/sections.py:4
+msgid "Base Utilities"
+msgstr "Sistema Básico"
+
+#: data/sections.py:5
+msgid "Communication Programs"
+msgstr "Comunicação"
+
+#: data/sections.py:6
+msgid "debian-installer udeb packages"
+msgstr ""
+
+#: data/sections.py:7
+msgid "Development"
+msgstr "Desenvolvimento"
+
+#: data/sections.py:8
+msgid "Documentation"
+msgstr "Documentação"
+
+#: data/sections.py:9
+msgid "Editors"
+msgstr "Editores"
+
+#: data/sections.py:10
+msgid "Electronics"
+msgstr "Eletrônica"
+
+#: data/sections.py:11
+msgid "Embedded software"
+msgstr "Dispositivos Embutidos"
+
+#: data/sections.py:12
+msgid "Games"
+msgstr "Jogos e Entretenimento"
+
+#: data/sections.py:13
+msgid "Gnome"
+msgstr ""
+
+#: data/sections.py:14
+msgid "Graphics"
+msgstr "Gráficos"
+
+#: data/sections.py:15
+msgid "Ham Radio"
+msgstr "Rádio Amador"
+
+#: data/sections.py:16
+msgid "Interpreted Computer Languages"
+msgstr "Linguagens de Computador Interpretadas"
+
+#: data/sections.py:17
+msgid "KDE"
+msgstr ""
+
+#: data/sections.py:18
+msgid "Library development"
+msgstr "Bibliotecas - Desenvolvimento"
+
+#: data/sections.py:19
+msgid "Libraries"
+msgstr "Bibliotecas"
+
+#: data/sections.py:20
+msgid "Mail"
+msgstr "E-mail"
+
+#: data/sections.py:21
+msgid "Mathematics"
+msgstr "Matemática"
+
+#: data/sections.py:22
+msgid "Miscellaneous"
+msgstr "Variedades"
+
+#: data/sections.py:23
+msgid "Network"
+msgstr "Rede"
+
+#: data/sections.py:24
+msgid "Newsgroups"
+msgstr "Grupos de Notícias"
+
+#: data/sections.py:25
+msgid "Old Libraries"
+msgstr "Bibliotecas - Antigos"
+
+#: data/sections.py:26
+msgid "Other OS's and file systems"
+msgstr "Plataforma Cruzada (Cross)"
+
+#: data/sections.py:27
+msgid "Perl"
+msgstr ""
+
+#: data/sections.py:28
+msgid "Python"
+msgstr ""
+
+#: data/sections.py:29
+msgid "Science"
+msgstr "Ciência"
+
+#: data/sections.py:30
+msgid "Shells"
+msgstr ""
+
+#: data/sections.py:31
+msgid "Sound"
+msgstr "Multimídia"
+
+#: data/sections.py:32
+msgid "TeX"
+msgstr ""
+
+#: data/sections.py:33
+msgid "Text Processing"
+msgstr "Processamento de Textos"
+
+#: data/sections.py:34
+msgid "Utilities"
+msgstr "Utilitários"
+
+#: data/sections.py:35
+msgid "Virtual packages"
+msgstr ""
+
+#: data/sections.py:36
+msgid "Web Software"
+msgstr ""
+
+#: data/sections.py:37
+msgid "X Window System software"
+msgstr ""

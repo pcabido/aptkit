@@ -1,0 +1,46 @@
+
+  DESCRIPTION  
+=================
+
+	This project was developed within the Sapo Open Source program, 
+Sapo Summerbits.
+
+	The goal of the project is to facilitate the package installation by
+creating a kit. A kit is group of applications that are related, also known
+as a metapackage for all debian based systems. 
+	The project is separated into two aplications, one for creating kits 
+and one to handle the installation process. These applications are intended
+to be as simple as they can, so that any user (new/normal or advanced) can use it.
+	
+	This way a professor can compile a kit for his students with his favorite 
+applications, a friend can share with another friend his favorit audio tools 
+or a user can simply make a system backup.
+
+
+  FEATURES 
+=================
+
+	KIT CREATOR
+	- Create a kit
+	- Create a system kit (kit with all the packages that are installed)
+	- Open a existing kit (to edit)
+	- Save a work in progress, to later continue
+	
+	KIT INSTALLER
+	- Install a kit from the kit repository
+	- Install a kit from a file (ex. a kit in a pen drive)
+
+
+  THANKS
+=================
+
+Although the project was developed by me, there were some important people
+throughout the project development:
+	- Professor Luís Rato and Professor Luís Arriaga for choosing me and giving me
+the oportunity to develop the project.
+	- Joaquim Rocha for the initial help with python and pygtk.
+	- Pedro Salgueiro who was always there for me and gave me all the conditions
+that I needed to develop the project.
+	- Rui Azevedo for the support and ideas.
+	- Sapo and Sapo Summerbits team, for the oportunity that they creates for
+all the participants.
